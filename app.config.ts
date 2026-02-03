@@ -32,7 +32,7 @@ const env = {
   appSlug: "audire",
   // S3 URL of the app logo - set this to the URL returned by generate_image when creating custom logo
   // Leave empty to use the default icon from assets/images/icon.png
-  logoUrl: "",
+  logoUrl: "https://private-us-east-1.manuscdn.com/sessionFile/vbK4JM8GDuZg3DeUpBYyCi/sandbox/tE26ZOxWPx4mYg2Dv2boLQ-img-1_1770146838000_na1fn_YXVkaXJlLWljb24.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvdmJLNEpNOEdEdVpnM0RlVXBCWXlDaS9zYW5kYm94L3RFMjZaT3hXUHg0bVlnMkR2MmJvTFEtaW1nLTFfMTc3MDE0NjgzODAwMF9uYTFmbl9ZWFZrYVhKbExXbGpiMjQucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=CA3PakFDltGwMZAYFMpkA6-MAhn46PMrVyQ~UzRqwrqdjkILwGUlb8CHvYHPz26A8gfrii8sUxhBPTWcN9CcjV5V8cjI-ykSl2-3JfT72aDiWo3MDq1~aHXrZ4Jix752aeRxqpPcZZeZ~tw7v5-1jT~CkU6xsZW9M6IQl~Jr8DX6wRi9WEP1awUxi4dr3CtTJ7glaMJwDTenHyq21V-8FTvwy~6F2uso0ac2EOkEcgelkLnnSzfnmIkrIXmaS5WZxuVNrr9QTPEDwhGEP0Q~70ErbKN3X9npXJASmbjrFfIrwg8Hci~gQzALA4j387kIGkJ~eaV7Q-bHfbDdTGbVvw__",
   scheme: schemeFromBundleId,
   iosBundleId: bundleId,
   androidPackage: bundleId,
