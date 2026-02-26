@@ -1,29 +1,65 @@
-# Xcode (from gitignore.io)
-audire/build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-audire/DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-# CocoaPod
-audire/Pods/*
+# dependencies
+node_modules/
 
-#Bundle
-audire/vendor/bundle/*
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
 
-# others
-*.swp
-!.gitkeep
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
 .DS_Store
-/.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+app-example
+
+# generated native folders
+/ios
+/android
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+
+# OS
+Thumbs.db
+
+# Build files
+*.tgz
+*.tar.gz
+.cache/
+
+# Webdev artifacts (checkpoint zips, migrations, etc.)
+.webdev/
